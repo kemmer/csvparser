@@ -4,6 +4,7 @@
 #ifndef CSVPARSER_CONSTANTS_H
 #define CSVPARSER_CONSTANTS_H
 
+
 class Constants
 {
 public:

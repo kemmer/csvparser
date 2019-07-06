@@ -1,8 +1,9 @@
 // Created by Cristiano Kemmer on 7/6/19.
 // Project csvparser
 
-#include "includes/Parser.h"
+#include "parser.h"
 #include <iostream>
+
 
 void Parser::printClassInformation()
 {

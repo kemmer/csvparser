@@ -2,8 +2,9 @@
 // Project csvparser
 
 #include <iostream>
-#include "Parser.h"
-#include "Constants.h"
+#include "parser.h"
+#include "constants.h"
+
 
 int main()
 {
