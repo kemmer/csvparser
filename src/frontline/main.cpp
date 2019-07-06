@@ -10,8 +10,10 @@ int main()
   using namespace std;
 
   cout << "Hello, this is Frontline!" << endl;
-  cout << "Using Parser::testParser() we have: " << endl;
-  Parser::testParser();
+
+  Parser::printClassInformation();
+  Parser p;
+  p.printOpenedFiles();
 
   return 0;
 }

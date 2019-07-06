@@ -4,7 +4,19 @@
 #include "includes/Parser.h"
 #include <iostream>
 
-void Parser::testParser()
+void Parser::printClassInformation()
 {
-  std::cout << "Hello, this is Parser::testParser()" << std::endl;
+  std::cout << "class Parser from module 'parser'" << std::endl;
+}
+
+void Parser::printOpenedFiles()
+{
+  if (true == this->files.empty()) {
+    std::cout << "No opened files" << std::endl;
+    return;
+  }
+
+  for (auto it = this->files.begin(); it != this->files.end(); ++it) {
+    std::cout << "Opened file: " << *it;
+  }
 }

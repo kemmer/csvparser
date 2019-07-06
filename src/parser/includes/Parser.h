@@ -4,11 +4,18 @@
 #ifndef CSVPARSER_PARSER_H
 #define CSVPARSER_PARSER_H
 
+#include <vector>
+#include <string>
+
 
 class Parser
 {
+  std::vector<std::string> files;
+
 public:
-  void static testParser();
+  void static printClassInformation();
+
+  void printOpenedFiles();
 };
 
 
