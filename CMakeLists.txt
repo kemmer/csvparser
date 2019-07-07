@@ -7,4 +7,6 @@ set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/lib)
 include_directories(src/parser/includes)
 add_subdirectory(src/frontline)
 add_subdirectory(src/parser)
+add_subdirectory(src/loader)
+
 add_subdirectory(test)
