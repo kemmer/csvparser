@@ -12,12 +12,12 @@ void Parser::printClassInformation()
 
 void Parser::printOpenedFiles()
 {
-  if (true == this->files.empty()) {
+  if (this->files.empty()) {
     std::cout << "No opened files" << std::endl;
     return;
   }
 
-  for (auto it = this->files.begin(); it != this->files.end(); ++it) {
-    std::cout << "Opened file: " << *it;
+  for (auto & file : this->files) {
+    std::cout << "Opened file: " << file;
   }
 }
