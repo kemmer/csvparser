@@ -17,6 +17,7 @@ _deps
 
 # CMake (CLion)
 cmake-build-*/
+.cmake
 
 ### CLion ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and WebStorm
@@ -43,4 +44,3 @@ cmake-build-*/
 
 lib/
 bin/
-
