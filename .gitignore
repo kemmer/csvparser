@@ -41,3 +41,6 @@ cmake-build-*/
 .idea/**/uiDesigner.xml
 .idea/**/dbnavigator.xml
 
+lib/
+bin/
+
